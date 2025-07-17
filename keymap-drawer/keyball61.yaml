@@ -16,12 +16,12 @@ layers:
   - {t: '`', s: '~'}
   - Q
   - W
-  - E
+  - {t: E, h: '$$mdi:apple-keyboard-shift$$'}
   - R
   - T
   - Y
   - U
-  - I
+  - {t: I, h: '$$mdi:apple-keyboard-shift$$'}
   - O
   - P
   - {t: '-', s: _}
@@ -34,7 +34,7 @@ layers:
   - H
   - J
   - K
-  - L
+  - {t: L, h: '$$mdi:apple-keyboard-control$$'}
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
   - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-shift$$'}
@@ -43,8 +43,8 @@ layers:
   - C
   - V
   - B
-  - PgDn
-  - PgUp
+  - Gui+Sft+S
+  - Ctl+Alt+$$mdi:backspace-reverse-outline$$
   - N
   - M
   - {t: ',', s: <}
@@ -331,6 +331,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - PgUp
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -342,8 +343,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - PgDn
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
