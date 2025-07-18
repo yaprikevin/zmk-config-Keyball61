@@ -16,12 +16,12 @@ layers:
   - {t: '`', s: '~'}
   - Q
   - W
-  - {t: E, h: '$$mdi:apple-keyboard-shift$$'}
+  - E
   - R
   - T
   - Y
   - U
-  - {t: I, h: '$$mdi:apple-keyboard-shift$$'}
+  - I
   - {t: O, h: '$$mdi:apple-keyboard-control$$'}
   - P
   - {t: '-', s: _}
