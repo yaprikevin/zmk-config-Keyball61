@@ -107,11 +107,11 @@
         snipe_layer {
             label = "SNIPE";
             bindings = <
-&trans         &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)                  &kp LS(N6)  &kp LS(N7)  &kp LS(N8)     &kp LS(N9)   &kp LS(N0)    &trans
-&kp LS(GRAVE)  &kp LS(Q)   &kp LS(W)   &kp LS(E)   &kp LS(R)   &kp LS(T)                   &kp LS(Y)   &kp LS(U)   &kp LS(I)      &kp LS(O)    &kp LS(P)     &kp LS(MINUS)
-&trans         &kp LS(A)   &kp LS(S)   &kp LS(D)   &kp LS(F)   &kp LS(G)                   &kp LS(H)   &kp LS(J)   &kp LS(K)      &kp LS(L)    &kp LS(SEMI)  &kp LS(APOS)
-&trans         &kp LS(Z)   &kp LS(X)   &kp LS(C)   &kp LS(V)   &kp LS(B)   &trans  &trans  &kp LS(N)   &kp LS(M)   &kp LS(COMMA)  &kp LS(DOT)  &kp LS(FSLH)  &kp LS(EQUAL)
-&trans         &trans      &trans      &trans      &trans      &trans      &trans  &trans  &trans                                              &trans        &trans
+&trans         &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)                  &kp LS(N6)     &kp LS(N7)  &kp LS(N8)     &kp LS(N9)   &kp LS(N0)    &trans
+&kp LS(GRAVE)  &kp LS(Q)   &kp LS(W)   &kp LS(E)   &kp LS(R)   &kp LS(T)                   &kp LS(Y)      &kp LS(U)   &kp LS(I)      &kp LS(O)    &kp LS(P)     &kp LS(MINUS)
+&trans         &kp LS(A)   &kp LS(S)   &kp LS(D)   &kp LS(F)   &kp LS(G)                   &kp LS(H)      &kp LS(J)   &kp LS(K)      &kp LS(L)    &kp LS(SEMI)  &kp LS(APOS)
+&trans         &kp LS(Z)   &kp LS(X)   &kp LS(C)   &kp LS(V)   &kp LS(B)   &trans  &trans  &kp LS(N)      &kp LS(M)   &kp LS(COMMA)  &kp LS(DOT)  &kp LS(FSLH)  &kp LS(EQUAL)
+&trans         &trans      &trans      &trans      &trans      &trans      &trans  &trans  &kp LS(ENTER)                                          &trans        &trans
             >;
         };
     };
