@@ -89,7 +89,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans         &trans     &trans     &trans     &trans     &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &mkp MB4       &mkp LCLK  &mkp MCLK  &mkp RCLK  &mkp MCLK  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans         &trans     &trans     &trans     &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(ENTER)                                   &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &sl 0   &kp LS(ENTER)                                   &trans     &trans
             >;
         };
 
