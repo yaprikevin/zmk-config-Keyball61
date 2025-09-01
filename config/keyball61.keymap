@@ -30,7 +30,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "SHIFT_AND_SNIPE";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_SHIFT>, <&mo 6>;
+            bindings = <&kp LEFT_SHIFT>, <&mo 4>;
         };
     };
 
@@ -44,20 +44,8 @@
 &kp TAB                  &kp Q         &kp W         &kp E   &kp R   &kp T                                      &kp Y        &kp U   &kp I      &mt LCTRL O  &kp P         &kp MINUS
 &kp GRAVE                &kp A         &kp S         &kp D   &kp F   &kp G                                      &kp H        &kp J   &kp K      &kp L        &kp SEMI      &kp SQT
 &mt LEFT_SHIFT CAPSLOCK  &kp Z         &kp X         &kp C   &kp V   &kp B        &kp LG(RS(S))  &kp LC(S)      &kp N        &kp M   &kp COMMA  &kp DOT      &kp FSLH      &kp EQUAL
-&kp LCTRL                &kp LEFT_WIN  &kp LEFT_ALT  &mo 3   &mo 6   &lt 4 SPACE  &mo 5          &kp BACKSPACE  &lt 2 ENTER                                  &kp C_VOL_DN  &kp C_VOL_UP
+&kp LCTRL                &kp LEFT_WIN  &kp LEFT_ALT  &mo 0   &mo 4   &lt 2 SPACE  &mo 3          &kp BACKSPACE  &lt 1 ENTER                                  &kp C_VOL_DN  &kp C_VOL_UP
             >;
-        };
-
-        number_layer {
-            bindings = <
-&trans  &kp N1    &kp N2    &kp N3  &kp N4     &kp N5                  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans
-&trans  &trans    &trans    &trans  &trans     &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans    &trans    &trans  &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans    &trans    &trans  &trans     &trans  &trans  &trans  &trans                          &trans  &trans
-            >;
-
-            label = "NUM";
         };
 
         symbol_layer {
@@ -71,25 +59,14 @@
             >;
         };
 
-        function_layer {
-            label = "FUN";
-            bindings = <
-&kp F11  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F12
-&trans   &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans   &trans
-&trans   &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans   &trans
-&trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans
-&trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans   &trans
-            >;
-        };
-
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans         &trans     &trans     &trans     &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans         &trans     &trans     &trans     &trans     &trans
+&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                  &kp F6         &kp F7     &kp F8     &kp F9     &kp F10    &kp F11
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans         &trans     &trans     &trans     &trans     &kp F12
 &trans  &trans  &trans  &trans  &trans  &trans                  &mkp MB4       &mkp LCLK  &mkp MCLK  &mkp RCLK  &mkp MCLK  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans         &trans     &trans     &trans     &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &mo 5   &sl 0   &kp LS(ENTER)                                   &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &mo 3   &sl 0   &kp LS(ENTER)                                   &trans     &trans
             >;
         };
 
